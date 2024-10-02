@@ -1,0 +1,5 @@
+PWD c:\Users\barbo\Desktop\thesis repo clone\thesis\Thesis Draft\reports
+INPUT C:\Users\barbo\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\barbo\Desktop\thesis repo clone\thesis\Thesis Draft\reports\report1.tex
+OUTPUT c:\Users\barbo\Desktop\thesis repo clone\thesis\Thesis Draft\reports\build\report1.log
+INPUT C:\Users\barbo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm

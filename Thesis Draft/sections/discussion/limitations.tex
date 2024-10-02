@@ -1,0 +1,105 @@
+\subsection{Temporal and Spatial Resolution Limitations}
+The proposed method could take advantage of the high spatial 
+resolution of fMRI and high temporal resolution of
+MEG to achieve the highest sex classifcation performance of 85.2%.
+\cite{Zhao2022}
+
+The Schaefer 100 parcellation scheme is generally considered a low-resolution 
+scheme. In the context of brain parcellations, “low-resolution” typically 
+refers to schemes with fewer regions or nodes, which provide a broader 
+overview of brain connectivity and function. Higher-resolution schemes, 
+like those with 300, 500, or 1000 nodes, offer more detailed and granular 
+insights.
+
+Diffusion magnetic resonance imaging (dMRI) and functional MRI reveals the large
+scale SC across different brain regions. Electrophysiological methods (i.e.
+MEG/EEG) provide direct measures of neural activity and exhibits complex 
+neurobiological temporal dynamics which could not be solved by
+fMRI. However, most of existing multimodal analytical methods collapse the brain 
+measurements either in space or time domain and fail
+to capture the spatio-temporal circuit dynamics. In this paper, we propose a novel 
+spatio-temporal graph Transformer model to integrate the
+structural and functional connectivity in both spatial and temporal domain.
+
+The proposed method is evaluated with the meta-analysis to explore the
+behavioral relevance of different brain regions and characterize the brain
+dynamical organization into low level functions region (i.e. sensory) and the
+complex function regions (i.e. memory).
+\cite{Zhao2022a}
+
+\subsection{Pipeline limitations}
+While effective, this model is not trained in an end-to-end
+fashion since the clustering, cluster-specific CBT generation, 
+and the population CBT estimation blocks are learned
+disjointly. Therefore, cumulated errors across these blocks
+might produce a less centered brain template
+\cite{Bessadok2022}
+
+\subsection{Interpretability Limitations}
+To highlight the importance of the brain ROIs, we introduce the explainable
+causal representation to encourage the reasonable node selection process. We
+train an explanation model to explain the multmodal graph representation approach based on granger causality.
+\cite{Zhao2022}
+
+\subsection{Instrumentation Limitations}
+Several issues should be considered in interpreting the
+current findings. First, we regressed out the global signal to partly reduce 
+physiological and other global noise.
+We also repeated analyses without global signal regression and found that 
+most of our findings were conserved,
+and the modularity failed to detect age effects. This finding might be an 
+indication of the fact that global signal
+removing reduces the effects of physiological and other
+noise across the whole brain and makes the metrics more
+comparable across participants. Second, to mitigate the
+effects of in-scanner head motion, we used the Friston24 regression model in 
+the preprocessing and added a
+motion-related parameter, meanFD, in group level, which
+has been proven to be a promising way to reduce the impact
+of motion artifacts on both individual and group-level
+outcomes (Yan et al., 2013). However, the effects of residual
+motion may remain in our results. Specifically, head movement has been found 
+to have a distinct impact on long- and short-connections, and it significantly correlates with age
+(Mowinckel et al., 2012; Power et al., 2012; Satterthwaite
+et al., 2012; Van Dijk et al., 2012), implying a complex
+role of head motion in the changes of distance-dependent
+connectivity. This important issue should be studied carefully in future.
+
+Third, it is challenging to map the brain’s
+parcellation-based functional connectome appropriately
+and precisely (Butts, 2009; Smith et al., 2011). We used a
+random-generated high-resolution template and showed
+the repeatability of most of our findings across different parcellation schemes. 
+Notably, non-uniform findings
+between templates were also observed, which may originate from the 
+differences in brain units. These findings
+indicate that the age effects on functional networks
+were template dependent. Nevertheless, the development
+and adoption of novel network tools and whole-brain
+connectivity-based parcellation approaches in the future
+will provide additional insight into the age effects on the
+functional connectome
+
+Fourth, we attempted to explore
+the age-related differences of brain functional networks
+over a continuous age range that covered both development and aging. 
+However, the analyzed samples were
+not perfectly distributed across the entire lifespan. The
+number of young adults was greater than the number of
+older people. We employed linear and quadratic (nonlinear) models to explore 
+the age changes across the human
+lifespan. The incomplete distribution of ages in our sample may have 
+affected parametric curve fitting. Exploration
+of larger R-fMRI datasets using non-parametrical models
+(e.g., smoothing splines) may reveal more robust and complex maturational 
+processes (Fjell and Walhovd, 2010).
+Finally, the age-related functional connectome changes
+were detected based on the cross-sectional data and thus
+could be potentially influenced by unbalanced cohort distributions. 
+Because different age cohorts may be different
+in substantive ways, investigations of the longitudinal network dynamics 
+should be taken in the future to reveal
+the nature of age-related changes (Fjell and Walhovd,2010)
+
+\cite{Cao2014}
+

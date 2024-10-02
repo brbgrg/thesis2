@@ -1,0 +1,49 @@
+improve comparison of S-F coupling 
+across age groups
+using GNN for community detection (RL)
+
+
+
+
+Graph classification (disease diagnosis)
+attention-based network
+
+1. combine the structural and functional brain graphs into a single 
+graph representation:
+learn the embedding of a single graph that is represented by
+an adjacency matrix denoting the structural connectivities
+and a feature matrix denoting the functional connectivities
+
+2.  resulting learned latent representation was passed to
+a multi-layer perceptron classifier to predict frontal lobe
+epilepsy, temporal lobe epilepsy, and healthy subjects.
+
+3. add interpretation of the captured features in the embedding space 
+which can help better understand the original connectivity pattern that 
+yields the illness
+(Edge-Weighted GAT layer, followed by Diffpool layers)
+
+
+
+Graph integraton
+DGN (deep graph normalizer)
+a GNN-based model that integrates a population of multiview brain
+graphs named “multigraph” into a connectional brain template (CBT) 
+in an end-to-end learning fashion
+
+Specifically, a multigraph encodes different facets of the brain where
+the exisiting connection between two nodes is encoded in
+a set of edges of multiple types. Each edge type denotes a
+particular form of brain connectivity derived from a particular neuroimage data. 
+
+DGN was proposed to integrate the complementary information across all subjects of 
+the population by 
+(i) training a set of edge conditioned convolutional
+layers each learns the embeddings of brain regions in the
+graph, 
+(ii) introduce a series of tensor operations to calculate
+the pairwise absolute difference of each pair of the learned
+node embeddings which results in a subject-based CBT, and
+finally, 
+(iii) estimate the CBT of the population by selecting
+the median of all subject-based CBTs

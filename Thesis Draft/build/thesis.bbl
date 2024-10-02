@@ -1,0 +1,488 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{Bessadok2022}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=438eb4176f5e2d3a2583c689522d1d63}{%
+           family={Bessadok},
+           familyi={B\bibinitperiod},
+           given={Alaa},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a33d24a7385a037d4fcc0cdca057fba5}{%
+           family={Mahjoub},
+           familyi={M\bibinitperiod},
+           given={Mohamed\bibnamedelima Ali},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7161309c59ce984b2c896214ac352917}{%
+           family={Rekik},
+           familyi={R\bibinitperiod},
+           given={Islem},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{1f9bf47b7bafaf6103da25d9d31ecc2e}
+      \strng{fullhash}{1f9bf47b7bafaf6103da25d9d31ecc2e}
+      \strng{bibnamehash}{1f9bf47b7bafaf6103da25d9d31ecc2e}
+      \strng{authorbibnamehash}{1f9bf47b7bafaf6103da25d9d31ecc2e}
+      \strng{authornamehash}{1f9bf47b7bafaf6103da25d9d31ecc2e}
+      \strng{authorfullhash}{1f9bf47b7bafaf6103da25d9d31ecc2e}
+      \field{labelalpha}{BMR22}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Noninvasive medical neuroimaging has yielded many discoveries about the brain connectivity. Several substantial techniques mapping morphological, structural and functional brain connectivities were developed to create a comprehensive road map of neuronal activities in the human brain -namely brain graph. Relying on its non-Euclidean data type, graph neural network (GNN) provides a clever way of learning the deep graph structure and it is rapidly becoming the state-of-the-art leading to enhanced performance in various network neuroscience tasks. Here we review current GNN-based methods, highlighting the ways that they have been used in several applications related to brain graphs such as missing brain graph synthesis and disease classification. We conclude by charting a path toward a better application of GNN models in network neuroscience field for neurological disorder diagnosis and population graph integration. The list of papers cited in our work is available at https://github.com/basiralab/GNNs-in-Network-Neuroscience.}
+      \field{eprintclass}{cs, q-bio}
+      \field{eprinttype}{arXiv}
+      \field{month}{9}
+      \field{number}{arXiv:2106.03535}
+      \field{title}{Graph {{Neural Networks}} in {{Network Neuroscience}}}
+      \field{urlday}{14}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2106.03535
+      \endverb
+      \verb{eprint}
+      \verb 2106.03535
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\barbo\\Zotero\\storage\\PCE8MG3Q\\Bessadok et al. - 2022 - Graph Neural Networks in Network Neuroscience.pdf;C\:\\Users\\barbo\\Zotero\\storage\\9ZNJQ65N\\2106.html
+      \endverb
+      \keyw{Computer Science - Machine Learning,Quantitative Biology - Neurons and Cognition}
+    \endentry
+    \entry{Chen2024}{misc}{}
+      \name{author}{11}{}{%
+        {{hash=bf3c0814ff46b624a77d276c49198751}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Peiyu},
+           giveni={P\bibinitperiod}}}%
+        {{hash=803a2187bb5946b85ffc603335892507}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Hang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=37fdc04e7a14ce889c0671450cdcfe9d}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=edc7d679397cd937c99c0bca1078857d}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Hai},
+           giveni={H\bibinitperiod}}}%
+        {{hash=33b1356f3e7b3cfef315088d30c09e21}{%
+           family={Hao},
+           familyi={H\bibinitperiod},
+           given={Jiachang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ee5ff364b3d7b46eb58431fb645e7693}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Xiaoyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ad699cc0ff44aa8ef2a872dab8e20175}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Chao},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1ae9af5661fe2cd5e5347b419bbda8b4}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Xiaosong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=1978307aeeeeaeadf7edfc4059eb6f5b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Runsen},
+           giveni={R\bibinitperiod}}}%
+        {{hash=fe397a58c335424e55b7c81b57ac0ef0}{%
+           family={Okubo},
+           familyi={O\bibinitperiod},
+           given={Tatsuo\bibnamedelima S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=48274482a4b278759a9c1863b33a112b}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Zaixu},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {bioRxiv}%
+      }
+      \strng{namehash}{ea2bbd2d55dd13a5fcd16931d0317368}
+      \strng{fullhash}{65370c8207760f5b50142635c2e6d906}
+      \strng{bibnamehash}{ea2bbd2d55dd13a5fcd16931d0317368}
+      \strng{authorbibnamehash}{ea2bbd2d55dd13a5fcd16931d0317368}
+      \strng{authornamehash}{ea2bbd2d55dd13a5fcd16931d0317368}
+      \strng{authorfullhash}{65370c8207760f5b50142635c2e6d906}
+      \field{labelalpha}{Che+24}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The human cerebral cortex is organized into functionally segregated but synchronized regions bridged by the structural connectivity of white matter pathways. While structure-function coupling has been implicated in cognitive development and neuropsychiatric disorders, studies yield inconsistent findings. The extent to which the structure-function coupling reflects reliable individual differences or primarily group-common characteristics remains unclear, at both the global and regional brain levels. By leveraging two independent, high-quality datasets, we found that the graph neural network accurately predicted unseen individuals' functional connectivity from structural connectivity, reflecting a strong structure-function coupling. This coupling was primarily driven by network topology and was substantially stronger than that of the linear models. Moreover, we observed that structure-function coupling was dominated by group-common effects, with subtle yet significant individual-specific effects. The regional group and individual effects of coupling were hierarchically organized across the cortex along a sensorimotor-association axis, with lower group and higher individual effects in association cortices. These findings emphasize the importance of considering both group and individual effects in understanding cortical structure-function coupling, suggesting insights into interpreting individual differences of the coupling and informing connectivity-guided therapeutics.}
+      \field{chapter}{New Results}
+      \field{eprintclass}{New Results}
+      \field{eprinttype}{bioRxiv}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{title}{Group-Common and Individual-Specific Effects of Structure-Function Coupling in Human Brain Networks with Graph Neural Networks}
+      \field{urlday}{9}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{2023.11.22.568257}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1101/2023.11.22.568257
+      \endverb
+      \verb{file}
+      \verb C:\Users\barbo\Zotero\storage\AHCTRX7D\Chen et al. - 2024 - Group-common and individual-specific effects of structure-function coupling in human brain networks.pdf
+      \endverb
+    \endentry
+    \entry{Puxeddu2022}{article}{}
+      \name{author}{5}{}{%
+        {{hash=68ded672ec798ce2188940ebe706a0d2}{%
+           family={Puxeddu},
+           familyi={P\bibinitperiod},
+           given={Maria\bibnamedelima Grazia},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=2d619937234b8f6c5df1356dff0e2527}{%
+           family={Faskowitz},
+           familyi={F\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod}}}%
+        {{hash=45ad603551aca6e1246f0e73c18c6eed}{%
+           family={Sporns},
+           familyi={S\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod}}}%
+        {{hash=cc0339ee13af7e33f2d552fb5a8242d3}{%
+           family={Astolfi},
+           familyi={A\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4d358b2ba085f52635dcb74464a3ed97}{%
+           family={Betzel},
+           familyi={B\bibinitperiod},
+           given={Richard\bibnamedelima F.},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb1381b05a822b823be87010f6fc8e44}
+      \strng{fullhash}{43482cedbe1fb0da201329659a3d504b}
+      \strng{bibnamehash}{eb1381b05a822b823be87010f6fc8e44}
+      \strng{authorbibnamehash}{eb1381b05a822b823be87010f6fc8e44}
+      \strng{authornamehash}{eb1381b05a822b823be87010f6fc8e44}
+      \strng{authorfullhash}{43482cedbe1fb0da201329659a3d504b}
+      \field{labelalpha}{Pux+22}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The human brain is a complex network of anatomically interconnected brain areas. Spontaneous neural activity is constrained by this architecture, giving rise to patterns of statistical dependencies between the activity of remote neural elements. The non-trivial relationship between structural and functional connectivity poses many unsolved challenges about cognition, disease, development, learning and aging. While numerous studies have focused on statistical relationships between edge weights in anatomical and functional networks, less is known about dependencies between their modules and communities. In this work, we investigate and characterize the relationship between anatomical and functional modular organization of the human brain, developing a novel multi-layer framework that expands the classical concept of multi-layer modularity. By simultaneously mapping anatomical and functional networks estimated from different subjects into communities, this approach allows us to carry out a multi-subject and multi-modal analysis of the brain's modular organization. Here, we investigate the relationship between anatomical and functional modules during resting state, finding unique and shared structures. The proposed framework constitutes a methodological advance in the context of multi-layer network analysis and paves the way to further investigate the relationship between structural and functional network organization in clinical cohorts, during cognitively demanding tasks, and in developmental or lifespan studies.}
+      \field{issn}{1053-8119}
+      \field{journaltitle}{NeuroImage}
+      \field{month}{12}
+      \field{title}{Multi-Modal and Multi-Subject Modular Organization of Human Brain Networks}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{264}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{119673}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.neuroimage.2022.119673
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\barbo\\Zotero\\storage\\A6XBMYBZ\\Puxeddu et al. - 2022 - Multi-modal and multi-subject modular organization of human brain networks.pdf;C\:\\Users\\barbo\\Zotero\\storage\\3CFXTVSE\\S1053811922007947.html
+      \endverb
+    \endentry
+    \entry{Tang2023}{article}{}
+      \name{author}{13}{}{%
+        {{hash=d9b1609f711744bf582f40df03e20543}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Haoteng},
+           giveni={H\bibinitperiod}}}%
+        {{hash=21b7b9ed2e97f83ad9397565986937c7}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Guixiang},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f34fa20b6c0534abe5d0f34f7976074b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yanfu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=18cd3ab0fe096d31f1b59c702235c64f}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=af765f6dc44eefb9b2e466f0ef1660c5}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=94499897f3cbdd7771a0d386fd479b5a}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Guodong},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3f2f88c6d17b9caf7c8daf637b818023}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=545bceebb758f906e35c23284bcf915b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yalin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f24d247fdf884cdad64179411fdca87d}{%
+           family={Ajilore},
+           familyi={A\bibinitperiod},
+           given={Olusola},
+           giveni={O\bibinitperiod}}}%
+        {{hash=1ed258cc1b593e7c2599478af8b27dba}{%
+           family={Leow},
+           familyi={L\bibinitperiod},
+           given={Alex\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=6c178ecb1fd78730cd5cfcefec6f896c}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={Paul\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5c12a772cad8929e4ef0e41937ffc35e}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Heng},
+           giveni={H\bibinitperiod}}}%
+        {{hash=62b0091b85f1c2f68e700731a67edfb5}{%
+           family={Zhan},
+           familyi={Z\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{eca566234e9aa8af1ea0f151af0d42a8}
+      \strng{fullhash}{ab3aea694f473d9acd692533ee053ef9}
+      \strng{bibnamehash}{eca566234e9aa8af1ea0f151af0d42a8}
+      \strng{authorbibnamehash}{eca566234e9aa8af1ea0f151af0d42a8}
+      \strng{authornamehash}{eca566234e9aa8af1ea0f151af0d42a8}
+      \strng{authorfullhash}{ab3aea694f473d9acd692533ee053ef9}
+      \field{labelalpha}{Tan+23}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recent years have shown great merits in utilizing neuroimaging data to understand brain structural and functional changes, as well as its relationship to different neurodegenerative diseases and other clinical phenotypes. Brain networks, derived from different neuroimaging modalities, have attracted increasing attention due to their potential to gain system-level insights to characterize brain dynamics and abnormalities in neurological conditions. Traditional methods aim to pre-define multiple topological features of brain networks and relate these features to different clinical measures or demographical variables. With the enormous successes in deep learning techniques, graph learning methods have played significant roles in brain network analysis. In this survey, we first provide a brief overview of neuroimaging-derived brain networks. Then, we focus on presenting a comprehensive overview of both traditional methods and state-of-the-art deep-learning methods for brain network mining. Major models, and objectives of these methods are reviewed within this paper. Finally, we discuss several promising research directions in this field.}
+      \field{issn}{2950-1628}
+      \field{journaltitle}{Meta-Radiology}
+      \field{month}{11}
+      \field{number}{3}
+      \field{title}{A Comprehensive Survey of Complex Brain Network Representation}
+      \field{urlday}{6}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{volume}{1}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{100046}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.metrad.2023.100046
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\barbo\\Zotero\\storage\\FQN83B63\\Tang et al. - 2023 - A comprehensive survey of complex brain network representation.pdf;C\:\\Users\\barbo\\Zotero\\storage\\MPPR4KZS\\S2950162823000462.html
+      \endverb
+      \keyw{Brain functional network,Brain network analysis,Brain structural network,Deep learning,Network representation learning}
+    \endentry
+    \entry{Zhang2022}{article}{}
+      \name{author}{7}{}{%
+        {{hash=3fa0b98bdb0330cc0ea22e655fd964c2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Wen},
+           giveni={W\bibinitperiod}}}%
+        {{hash=fd0dea86f8a0cdb5877a7388e7319d3a}{%
+           family={Braden},
+           familyi={B\bibinitperiod},
+           given={B.\bibnamedelimi Blair},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=abba29cda247fa4fe14a534f4a363dbc}{%
+           family={Miranda},
+           familyi={M\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b7e59a821f2474127e14134fb2309373}{%
+           family={Shu},
+           familyi={S\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d51786a0dffbd8ee68a63e5263f05e7f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Suhang},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a83f8cd28a9f36e43dd5d017cd7fc8f4}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Huan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=545bceebb758f906e35c23284bcf915b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yalin},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{6842b5fbca42689fb0276e5d0ca4a2a4}
+      \strng{fullhash}{768e3a0c9d14afaa9954b914bd540190}
+      \strng{bibnamehash}{6842b5fbca42689fb0276e5d0ca4a2a4}
+      \strng{authorbibnamehash}{6842b5fbca42689fb0276e5d0ca4a2a4}
+      \strng{authornamehash}{6842b5fbca42689fb0276e5d0ca4a2a4}
+      \strng{authorfullhash}{768e3a0c9d14afaa9954b914bd540190}
+      \field{labelalpha}{Zha+22}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Uncovering the complex network of the brain is of great interest to the field of neuroimaging. Mining from these rich datasets, scientists try to unveil the fundamental biological mechanisms in the human brain. However, neuroimaging data collected for constructing brain networks is generally costly, and thus extracting useful information from a limited sample size of brain networks is demanding. Currently, there are two common trends in neuroimaging data collection that could be exploited to gain more information: 1) multimodal data, and 2) longitudinal data. It has been shown that these two types of data provide complementary information. Nonetheless, it is challenging to learn brain network representations that can simultaneously capture network properties from multimodal as well as longitudinal datasets. Here we propose a general fusion framework for multi-source learning of brain networks -- multimodal brain network fusion with longitudinal coupling (MMLC). In our framework, three layers of information are considered, including cross-sectional similarity, multimodal coupling, and longitudinal consistency. Specifically, we jointly factorize multimodal networks and construct a rotation-based constraint to couple network variance across time. We also adopt the consensus factorization as the group consistent pattern. Using two publicly available brain imaging datasets, we demonstrate that MMLC may better predict psychometric scores than some other state-of-the-art brain network representation learning algorithms. Additionally, the discovered significant brain regions are synergistic with previous literature. Our new approach may boost statistical power and sheds new light on neuroimaging network biomarkers for future psychometric prediction research by integrating longitudinal and multimodal neuroimaging data.}
+      \field{issn}{1559-0089}
+      \field{journaltitle}{Neuroinformatics}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Integrating {{Multimodal}} and {{Longitudinal Neuroimaging Data}} with {{Multi-Source Network Representation Learning}}}
+      \field{urlday}{12}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{volume}{20}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{301\bibrangedash 316}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/s12021-021-09523-w
+      \endverb
+      \verb{file}
+      \verb C:\Users\barbo\Zotero\storage\KHGNX3SL\Zhang et al. - 2022 - Integrating Multimodal and Longitudinal Neuroimaging Data with Multi-Source Network Representation L.pdf
+      \endverb
+      \keyw{Artificial Intelligence,Brain network fusion,Longitudinal,Multimodality,Representation}
+    \endentry
+    \entry{Zhao2022}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=3dd619fe9e735bbde83bf0446e2dfae8}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Chongyue},
+           giveni={C\bibinitperiod}}}%
+        {{hash=62b0091b85f1c2f68e700731a67edfb5}{%
+           family={Zhan},
+           familyi={Z\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod}}}%
+        {{hash=6c178ecb1fd78730cd5cfcefec6f896c}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={Paul\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5c12a772cad8929e4ef0e41937ffc35e}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Heng},
+           giveni={H\bibinitperiod}}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=e4b2ac8bed44f2d428aa4517c0f0c1bd}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Linwei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9654fa8a13dc7c57bdb7b4b35aa01ff6}{%
+           family={Dou},
+           familyi={D\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=5d7718d11fef66acd0af20fab4115749}{%
+           family={Fletcher},
+           familyi={F\bibinitperiod},
+           given={P.\bibnamedelimi Thomas},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=4e47ca3028a0a7df8211f419903005f3}{%
+           family={Speidel},
+           familyi={S\bibinitperiod},
+           given={Stefanie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=83ae02ba330cfc5e6c0cc2ac2c4b1dd4}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Shuo},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature Switzerland}%
+      }
+      \strng{namehash}{3839974f73bdfd2f1fd6188d710cd872}
+      \strng{fullhash}{bd74d70de34f3da7cad257b027ac1edb}
+      \strng{bibnamehash}{3839974f73bdfd2f1fd6188d710cd872}
+      \strng{authorbibnamehash}{3839974f73bdfd2f1fd6188d710cd872}
+      \strng{authornamehash}{3839974f73bdfd2f1fd6188d710cd872}
+      \strng{authorfullhash}{bd74d70de34f3da7cad257b027ac1edb}
+      \strng{editorbibnamehash}{3242f839ed2d86478cdc05c8f948031c}
+      \strng{editornamehash}{3242f839ed2d86478cdc05c8f948031c}
+      \strng{editorfullhash}{a347bea3c4cddf6651cd4c870cd7bc76}
+      \field{labelalpha}{Zha+22}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Understanding the intrinsic patterns of human brain is important to make inferences about the mind and brain-behavior association. Electrophysiological methods (i.e. MEG/EEG) provide direct measures of neural activity without the effect of vascular confounds. The blood oxygenated level-dependent (BOLD) signal of functional MRI (fMRI) reveals the spatial and temporal brain activity across different brain regions. However, it is unclear how to associate the high temporal resolution Electrophysiological measures with high spatial resolution fMRI signals. Here, we present a novel interpretable model for coupling the structure and function activity of brain based on heterogeneous contrastive graph representation. The proposed method is able to link manifest variables of the brain (i.e. MEG, MRI, fMRI and behavior performance) and quantify the intrinsic coupling strength of different modal signals. The proposed method learns the heterogeneous node and graph representations by contrasting the structural and temporal views through the mind to multimodal brain data. The first experiment with 1200 subjects from Human connectome Project (HCP) shows that the proposed method outperforms the existing approaches in predicting individual gender and enabling the location of the importance of brain regions with sex difference. The second experiment associates the structure and temporal views between the low-level sensory regions and high-level cognitive ones. The experimental results demonstrate that the dependence of structural and temporal views varied spatially through different modal variants. The proposed method enables the heterogeneous biomarkers explanation for different brain measurements.}
+      \field{booktitle}{Medical {{Image Computing}} and {{Computer Assisted Intervention}} -- {{MICCAI}} 2022}
+      \field{isbn}{978-3-031-16431-6}
+      \field{langid}{english}
+      \field{title}{Explainable {{Contrastive Multiview Graph Representation}} of~{{Brain}}, {{Mind}}, and~{{Behavior}}}
+      \field{year}{2022}
+      \field{pages}{356\bibrangedash 365}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/978-3-031-16431-6_34
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

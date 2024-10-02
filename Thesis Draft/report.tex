@@ -1,0 +1,30 @@
+\documentclass{report}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage[backend=biber,style=alphabetic]{biblatex}
+\addbibresource{bibliography/bibliography.bib}
+
+\usepackage{refcount}
+
+
+\title{Report}
+\author{Giorgia Barboni}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+% Include other sections or chapters as needed
+\include{reports/report1}
+
+% Include the bibliography if present
+\newcounter{mybibcount}
+\setcounter{mybibcount}{\getrefnumber{TotPages}} % Initialize the counter with the total number of pages
+
+\ifnum\value{mybibcount}>0
+  \printbibliography
+\fi
+
+\end{document}

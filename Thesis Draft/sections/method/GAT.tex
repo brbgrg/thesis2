@@ -1,0 +1,27 @@
+
+\subsection{GAT introduction}
+
+We have presented graph attention networks (GATs), novel convolution-style neural networks that
+operate on graph-structured data, leveraging masked self-attentional layers. The graph attentional
+layer utilized throughout these networks is computationally efficient (does not require costly matrix operations, 
+and is parallelizable across all nodes in the graph), allows for (implicitly) assigning different importances to different 
+nodes within a neighborhood while dealing with different
+sized neighborhoods, and does not depend on knowing the entire graph structure upfront—thus
+addressing many of the theoretical issues with previous spectral-based approaches. Our models
+leveraging attention have successfully achieved or matched state-of-the-art performance across four
+well-established node classification benchmarks, both transductive and inductive (especially, with
+completely unseen graphs used for testing).
+\cite{Velickovic2018}
+
+
+
+
+\subsection{self attention}
+
+
+The self-attention mechanism is a sequence-to-sequence operation: a sequence of vectors goes in, and a sequence of vectors comes out.
+
+This is the basic intuition behind self-attention. The dot product expresses how related two vectors in the 
+input sequence are, with “related” defined by the learning task, and the output vectors are weighted sums 
+over the whole input sequence, with the weights determined by these dot products.
+\cite{zotero-36}

@@ -1,0 +1,111 @@
+
+
+NITRC.org
+https://www.nitrc.org/ir/app/action/DisplaySearchAction
+
+\section{Dataset Preprocessing}
+Several connectomic datasets
+have been proliferated such as the Human Connectome
+Project (HCP) [18], the Baby Connectome Project (BCP) [19]
+and the Connectome Related to Human Disease (CRHD)
+[20]. In these datasets, connectivity matrices were estimated
+using different tools. For instance, functional connectivity
+matrices were generated using CONN toolbox or groupwise
+whole-brain parcellation approaches [21], [22]. On the other
+hand, structural and morphological connectivity matrices
+were measured using FSL toolbox and Desikan-Killiany atlas via FreeSurfer software [23], [24], respectively
+\cite{Bessadok2022}
+
+The pre-processing of the resting state fMRI data was
+performed using both FSL (https://fsl.fmrib.ox.ac.uk/fsl/
+fslwiki)and AFNI (Automated Functional Neuroimaging) (http://afni.nimh.nih.gov/afni) toolbox. 
+In brief, the pre-processing steps were as follows: \dots \cite{Zhang2022}.
+
+Functional networks are rendered as temporal correlation matrices, and anatomical networks were converted into structural 
+correlation matrices.
+The transformation applied to SC networks is fundamental for this analysis and in general for those analysis aimed at 
+comparing SC and FC topological organization. 
+If we had preserved SC networks in the form of a sparse positive matrix with
+weights possibly much higher than 1 (i.e., maximum weight reachable in FC networks), the community detection process would  
+have been biased: depending it on the weights of the matrices, it would have found modules reflecting almost exclusively 
+the anatomical modular organization.
+Moreover, this transformation allowed us to use the same mathematical instruments (i.e., the same spatial null model in 
+the optimization) on both matrices.
+\cite{Puxeddu2022}.
+
+\section{Structural and Functional Connectivity Matrices}
+Structural connectivity (SC) matrices represent the anatomical connections between different brain regions.
+Functional connectivity (FC) matrices represent the temporal correlations between brain regions during resting state.
+
+Functional brain graphs. Conventionally, a functional graph is constructed from functional MRI
+(fMRI), more specifically from the blood-oxygen level-dependent (BOLD) signal which shows the
+changes in blood oxygenation over time linked to
+neural activity [11] in a particular region in the
+brain. First, the reported signal is averaged within
+each brain ROI. Next, a measure of correlation such
+as Pearson’s correlation coefficient is computed between pairwise regions which results in the 
+functional connectivity depicting the communication between pairs of brain regions. In functional brain
+graphs, nodes do not have features and edges are
+generally undirected and weighted
+\cite{Bessadok2022}
+
+Most existing studies focus more on structural brain networks 
+and functional brain networks, where both brain networks are 
+undirected attributed graphs with undirected edge eij between 
+vi and vj (i.e., eij ¼ eji). The difference between structural
+networks and functional networks is that the e 2 E in structural 
+networks are positive values, while they can be negative in 
+functional networks.
+Since the functional networks are constructed based on the BOLD 
+signal correlation among different brain nodes, the positive and 
+negative edges represent synchronous activation and asynchronous 
+activation among brain regions, respectively. \cite{Tang2023}.
+
+The blood oxygenated level-dependent (BOLD) signal of functional MRI
+(fMRI) reveals the spatial and temporal brain activity across diferent
+brain regions \cite{Zhao2022}. 
+
+We first constructed the connectome of functional connectivity (FC) 
+and structural connectivity (SC) for each participant, using the a 
+priori Schaefer cortical parcellation atlas of 400 regions43. 
+
+Particularly, based on the resting-state fMRI data, FC was defined as 
+the Pearson correlation coefficients between each pair of regional 
+time series, resulting in a 400×400 symmetrical FC matrix for each 
+participant. The matrix consisted of 79,800 unique elements, with 
+each element denoted as an “edge” connecting two cortical regions. 
+Fisher r-to-z was applied to improve the normality of FC edge strength. 
+
+Meanwhile, using the diffusion MRI data, we reconstructed the whole-brain 
+white matter tracts of individual participants via probabilistic fiber 
+tractography with multi-shell, multi-tissue constrained spherical 
+deconvolution (CSD)44. Anatomically constrained tractography (ACT)45 and 
+spherical deconvolution informed filtering of tractograms (SIFT)46 were 
+applied to improve the biological accuracy of fiber reconstruction. 
+For each participant, we quantified the number of streamlines connecting 
+every pair of cortical regions from the Schaefer atlas to construct a 
+structural connectome of streamline counts. 
+The edge weights of the SC matrix were log-transformed.
+\cite{Chen2024}
+
+
+We construct the fMRI brain networks by computing the edge weights
+as Pearson correlations between each pair of regional time
+series. The nodes in the networks are accordant with brain
+regions defined in the chosen brain atlas. \cite{Zhang2022}
+
+\section{Dataset Description}
+The dataset used in this study comprises structural connectivity (SC) and functional connectivity (FC) matrices 
+obtained from MRI and fMRI scans, respectively. The data is categorized into three age groups: 
+young (10 years old), adult (30 years old), and old (70 years old). Each age group contains data from 5 different subjects.
+Both SC and FC matrices have dimensions of 200 $\times$ 200 $\times$ 5 (nodes $\times$ nodes $\times$ subjects).
+
+Nodes are already aligned across subjects and modalities based on a 
+common parcellation scheme, so no graph matching is needed? \cite{Puxeddu2022}
+
+For a given participant, the edge weights of graph matrix
+in functional and structural networks fall in the same range
+and their number of nodes are identical. The node definition
+follows the organization of brain atlas used in this study
+\cite{Zhang2022}
+

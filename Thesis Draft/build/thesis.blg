@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[1] Config.pm:310> INFO - Logfile is 'build\thesis.blg'
+[128] biber-MSWIN64:340> INFO - === 
+[172] Biber.pm:419> INFO - Reading 'build/thesis.bcf'
+[324] Biber.pm:979> INFO - Found 6 citekeys in bib section 0
+[343] Biber.pm:4419> INFO - Processing section 0
+[363] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography/bibliography.bib' for section 0
+[423] bibtex.pm:1713> INFO - LaTeX decoding ...
+[479] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography/bibliography.bib'
+[620] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[620] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[620] Biber.pm:4239> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-US'
+[620] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[630] bbl.pm:660> INFO - Writing 'build\thesis.bbl' with encoding 'UTF-8'
+[644] bbl.pm:763> INFO - Output to build\thesis.bbl

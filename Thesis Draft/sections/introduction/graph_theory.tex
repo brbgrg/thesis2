@@ -1,0 +1,43 @@
+
+\subsection{Graph Theory and Definitions}
+
+Undirected single graph
+A graph G can be defined as a pair (V, E) where V is a set of vertices representing the
+nodes and E is a set of edges representing the connections between the nodes. We
+define as E = {(i, j)| i, j Î V} the single connection between nodes i and j. In this case,
+we say that i and j are neighbors. . A multi-edge connection consists of two or more
+edges that have the same endpoints. Such multi-edges are especially important for networks 
+in which two elements can be linked by more than one connection. In such
+cases, each connection indicates a different type of information
+
+Weighted graph
+A weighted graph is defined as a graph G = (V, E) where V is a set of vertices and E is
+a set of edges between the vertices E = {(u, v) | u, v Î V} associated with it a weight
+function w: E®R, where R denotes the set of all real numbers. Most of the times, the
+weight wij of the edge between nodes i and j represents the relevance of the connection. 
+Usually, a larger weight corresponds to higher reliability of a connection.
+
+
+The degree of a node in an undirected graph is the number of connections or edges
+the node has to other nodes and is defined as deg(i) = k(i) = |N(i)| where N(i) is the
+number of the neighbors of node i.
+
+
+Adjacency matrix
+Given a graph G = (V, E) the adjacency matrix representation consists of a |V|x|V| =
+nxn matrix A = (aij) such that aij = 1 if (i, j)ÎV or aij = 0 or otherwise
+A = ..., n = |V|. In the case where we have weighted graphs aij = wij if (i,
+j)ÎV or aij = 0 otherwise. For undirected graphs the matrix is symmetric because aij
+= aji.
+
+
+Adjacency matrices require space of Θ(|V|2) and are best suited for dense and not for
+sparse graphs. For an all-against-all symmetric data set, only the upper or the lower
+triangular part of the matrix is necessary, which requires Θ(|V|) amount of memory to
+be allocated. This data structure is more efficient for cluttered networks, where the
+density of the connections between elements is relatively high. In the case of a fully
+connected graph where all nodes are connected with each other, adjacency matrices
+are highly suggested. To reduce memory allocation to half for larger scale data, a symmetric 
+2D matrix A can be stored as a 1D matrix B, where A[i, j] = B[i(i + 1)/2 + j]
+
+\cite{Pavlopoulos2011}

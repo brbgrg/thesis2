@@ -1,0 +1,60 @@
+\documentclass{sapthesis} % or another class as per your university's requirements
+
+% Include packages
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage[backend=biber,style=alphabetic]{biblatex} % Use biblatex with biber backend
+
+
+% Specify the mandatory fields
+\title{My Thesis Title}
+% \subtitle{Optional Subtitle}
+\author{Giorgia Barboni}
+\IDnumber{1885285}
+\course{Applied Computer Science and Artificial Intelligence}
+\courseorganizer{Facoltà di Ingegneria dell'Informazione, Informatica e Statistica}
+\AcademicYear{2023/2024}
+\advisor{Prof. Advisor Name}
+%\customadvisorlabel{relatrice} 
+%\coadvisor{Prof. Coadvisor Name}
+%\customcoadvisorlabel{relatrice}
+\authoremail{barboni.1885285@studenti.uniroma1.it}
+\copyyear{2024}
+\thesistype{Bachelor Thesis}
+
+% Add bibliography file
+\addbibresource{bibliography/bibliography.bib}
+
+
+\begin{document}
+
+\maketitle
+
+% Dedication
+%\dedication{Dedicated to my family and friends.}
+
+% Abstract
+\begin{abstract}
+Your abstract here.
+A brief summary of the research, including the purpose, methods, results, and conclusions.
+% This is a citation \cite{author2020}.
+\end{abstract}
+
+
+% Table of contents
+\tableofcontents
+
+
+% Sections
+\include{sections/data/data}
+
+
+% Appendices
+
+
+% Bibliography
+%\printbibliography
+
+\end{document}
